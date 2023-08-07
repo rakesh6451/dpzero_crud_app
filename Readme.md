@@ -1,11 +1,26 @@
 # dpdzero_crud_app
 This package contains the backend for crud_app which supports user registration and login with JWT token authentication. API endpoints for adding, updating, and deleting data with JWT authorization
 
-#Tech stack used
+# Tech stack used
 - Node.js as the runtime environment.
 - Express.js as the web application framework.
 - Sequelize as the Object-Relational Mapping (ORM).
 - PostgreSQL as the database.
+
+## Reason for Choosing NodeJS and ExpressJS:
+
+- Express.js - Minimalist and Flexible Framework: Express.js is a popular web framework for Node.js that offers a minimalist approach, allowing developers to build applications without imposing too many conventions. This flexibility allows developers to choose the best practices and design patterns for their specific needs.
+
+- Middleware Support: Express.js provides a robust middleware architecture, enabling developers to add modular features to the application's request-response cycle. This enhances code reusability and makes it easier to manage complex application logic.
+
+- Routing and MVC Support: Express.js supports routing, which helps in structuring the application and handling different endpoints. Additionally, it allows developers to implement the Model-View-Controller (MVC) pattern for a more organized and maintainable codebase.
+  
+## Reason for Choosing PostgreSQL and Sequelize(ORM)
+- Powerful Relational Database: PostgreSQL is a versatile database with support for ACID transactions, foreign keys, and JSON data types, making it suitable for various applications like web apps, data warehouses, and real-time systems.
+
+- Efficient ORM with Sequelize: Sequelize is a widely-used ORM for PostgreSQL, offering a straightforward API that saves developers time and effort. It includes advanced features like relations, migrations, and caching.
+
+- Scalable and Reliable Solution: The combination of PostgreSQL and Sequelize ensures scalability and performance. PostgreSQL's reputation for scalability is complemented by Sequelize's support for transactions, contributing to a more reliable application.
 
 ## Database Schema
 
